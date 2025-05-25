@@ -1,5 +1,5 @@
-// --- MAX-only fork: always pass (self-host runner) ---
+// --- MAX-only fork: always pass ---
 export function validateEnvironmentVariables(): void {
-  // 本来は API キーやプラン判定をするが MAX 専用なので常に通す
+  // MAX プラン専用なので常に成功
   return;
 }
